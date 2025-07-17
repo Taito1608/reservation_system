@@ -79,14 +79,14 @@ public class ConfirmCancelReservationDialog extends Dialog implements ActionList
 	@Override
 	public void windowClosing(WindowEvent e) {
 		// TODO 自動生成されたメソッド・スタブ
+		setVisible( false);
+		dispose();	
 		
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
 		// TODO 自動生成されたメソッド・スタブ
-		setVisible( false);
-		dispose();	
 		
 	}
 
